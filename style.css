@@ -59,11 +59,11 @@ hr{
 }
 button{
     border: none;
-    margin-left: 100px;
-    width: 15%;
+    margin: 100px;
+    width: 200px;
     height: 100px;
-    font-size: clamp(0.5vw, 10vw, 25px);
     font-weight: bold;
+    font-size: x-large;
 }
 .reset{
     background: rgb(255, 159, 159);
@@ -100,8 +100,10 @@ html {
 }
 .cosas{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    align-content: center;
+    justify-content: center;
 }
 #confirm{
     align-self: center;

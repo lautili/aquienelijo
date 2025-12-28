@@ -1,5 +1,9 @@
 let CARTAS = [
     {
+        img:"https://media.discordapp.net/attachments/1418016924683735092/1454632216381620306/Captura_de_pantalla_2025-12-27_212838.png?ex=6951cb52&is=695079d2&hm=39622db76c73bee04381187611da50e480f61aa287c86a7353d874d52036e58d&=&format=webp&quality=lossless&width=265&height=249",
+        nombre:"Chiqui Mafia"
+    },
+    {
         img:"https://pbs.twimg.com/profile_images/2002115726459416577/qb1i7P5-_400x400.jpg",
         nombre:"Wapu"
     },
