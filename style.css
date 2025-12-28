@@ -53,6 +53,7 @@ hr{
 .card_normal img{
     width: 100px;
     height: 100px;
+    border: 1px solid black;
     opacity: 100%;
 }
 .card_normal h2{
@@ -80,6 +81,7 @@ hr{
 .card_normal_2 img{
     width: 100px;
     height: 100px;
+    border: 1px solid black;
     opacity: 100%;
 }
 .card_normal_2 h2{
@@ -129,6 +131,7 @@ button{
     width: 100px;
     height: 100px;
     opacity: 75%;
+    border: 1px solid black;
     filter: grayscale();
 }
 .card_black h2{
@@ -165,7 +168,7 @@ h3{
     align-items: center;
     border: 1px solid black;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     width: 200px;
     height: 300px;
     background-color: rgb(104, 187, 148);
@@ -173,6 +176,7 @@ h3{
 .selected img{
     width: 200px;
     height: 200px;
+    border: 1px solid black;
     opacity: 100%;
 }
 .selected h2{
@@ -199,6 +203,7 @@ h3{
     width: 200px;
     height: 200px;
     opacity: 75%;
+    border: 1px solid black;
     filter:grayscale();
 }
 .blackselected h2{

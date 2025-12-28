@@ -216,12 +216,10 @@ function createCards2(){
 function handleClick(e){
     let div = e.currentTarget;
     if(state){
-        if (div.classList.contains("card_normal")){
-        div.classList.remove("card_normal");
-        div.classList.add("card_black");
+        if (div.classList.contains("card_black") == false){
+            div.classList.add("card_black");
         }else {
-        div.classList.remove("card_black");
-        div.classList.add("card_normal");
+            div.classList.remove("card_black");
         }
     }else{
         let sel  = document.querySelector(".blackselected");
