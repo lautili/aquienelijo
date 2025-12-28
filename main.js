@@ -198,7 +198,21 @@ function createCards(){
         board.append(div);
     }
 }
-
+function createCards2(){
+    let board = document.querySelector("#Cartas2");
+    for (let card of CARTAS){
+        let div = document.createElement('div');
+        let pfp = document.createElement('img');
+        let name = document.createElement('h2');
+        let {img, nombre} = card;
+        pfp.src=img;
+        name.textContent=nombre;
+        div.classList.add("card_normal_2");
+        div.append(pfp, name);
+        div.addEventListener("click", handleClick);
+        board.append(div);
+    }
+}
 function handleClick(e){
     let div = e.currentTarget;
     if(state){
@@ -245,4 +259,36 @@ function handleReset(){
     sel.children[1].textContent = "No Seleccionado";
     state=0;
     select=false;
+}
+function handleRandom(){
+    if(!state){
+        let quantity = 0;
+        let divs = document.querySelectorAll(".card_normal")
+        for(let i in divs){
+            quantity++;
+        }
+        let div = divs[Math.floor(Math.random()*quantity)];
+        let sel  = document.querySelector(".blackselected");
+        let tarimg = sel.children[0];
+        let tarname = sel.children[1];
+        let img  = div.children[0];
+        let name = div.children[1];
+        tarimg.src = img.src;
+        tarname.textContent = name.textContent;
+        select=true;
+    }
+}
+
+function handleType(e){
+    if(!state){
+        let button = e.target;
+        let cards2 = document.querySelector("#Cartas2");
+        if(cards2.innerHTML==''){
+            createCards2();
+            button.textContent='1v1v1';
+        }else{
+            cards2.innerHTML='';
+            button.textContent='1v1';
+        }
+    }
 }
