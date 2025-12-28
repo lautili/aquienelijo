@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>¿A QUIEN ELIJO?</h1>
+    <hr>
+    <div class="etc">
+    <div class="cosas">
+        <button class="reset" onclick="handleReset(event)">RESET</button>
+        <div class="slcrd">
+            <h3>CARTA ELEGIDA:</h3>
+            <div class="blackselected" id="selected">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Icon-round-Question_mark.svg/2048px-Icon-round-Question_mark.svg.png" alt="">
+                <h2>No Seleccionado</h2>
+            </div>
+        </div>
+        <button class="confirm" onclick="handleConfirm(event)">CONFIRMAR</button>
+    </div>
+    <hr>
+    <div id="Cartas"></div>
+</body>
+<script src="main.js"></script>
+</html>
