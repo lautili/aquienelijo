@@ -1,4 +1,5 @@
 let CARTAS = [
+    // Politica / Futbol
     {
         img:"https://media.discordapp.net/attachments/1418016924683735092/1454632216381620306/Captura_de_pantalla_2025-12-27_212838.png?ex=6951cb52&is=695079d2&hm=39622db76c73bee04381187611da50e480f61aa287c86a7353d874d52036e58d&=&format=webp&quality=lossless&width=265&height=249",
         nombre:"Chiqui Mafia"
@@ -19,6 +20,7 @@ let CARTAS = [
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1GRjxxLbSiBzkWPn-eaH6csEfVHGv0vgzQ&s",
         nombre:"Juan D. Perón"
     },
+    // Twitter
     {
         img:"https://pbs.twimg.com/profile_images/1995394553612787712/7NFj_qT5_400x400.jpg",
         nombre:"Manuin"
@@ -67,6 +69,7 @@ let CARTAS = [
         img:"https://pbs.twimg.com/profile_images/1994475530918223873/snHWlk86_400x400.png",
         nombre:"Ashley"
     },
+    // Omori
     {
         img:"https://i.pinimg.com/736x/33/70/36/337036424915bb651dfdd11410251f8e.jpg",
         nombre:"Sunny"
@@ -92,12 +95,48 @@ let CARTAS = [
         nombre:"Mari"
     },
     {
+        img:"https://ih1.redbubble.net/image.3134947502.2467/raf,360x360,075,t,fafafa:ca443f4786.jpg",
+        nombre:"SOMETHING"
+    },
+    {
         img:"https://pbs.twimg.com/media/Es6jE4hWMAIXxeA.jpg",
         nombre:"Omori"
     },
     {
         img:"https://i.redd.it/udwyd92dbk3a1.jpg",
         nombre:"Kim"
+    },
+    {
+        img:"https://preview.redd.it/vance-is-not-a-very-good-person-and-a-bad-big-brother-v0-neen0msz274b1.png?width=350&format=png&auto=webp&s=d9090a277568616ba58c08d4c1e2c6508229e838",
+        nombre:"Vance"
+    },
+    {
+        img:"https://media.tenor.com/qS6UqqOshBgAAAAe/angel-omori.png",
+        nombre:"Angel"
+    },
+    {
+        img:"https://static.wikia.nocookie.net/omori/images/8/88/Charlene_%28Neutral%29.gif",
+        nombre:"Charlene"
+    },
+    {
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsm8A5dg6KXgnMoq1y_JutNPqsR8kSdnoZ_A&s",
+        nombre:'Mikhael'
+    },
+    {
+        img:"https://static.myfigurecollection.net/upload/entries/1/333552-5d8f3.jpg",
+        nombre:"Sir Maximus"
+    },
+    {
+        img:"https://static.myfigurecollection.net/upload/entries/1/333552-5d8f3.jpg",
+        nombre:"Sir Maximus II"
+    },
+    {
+        img:"https://static.myfigurecollection.net/upload/entries/1/333552-5d8f3.jpg",
+        nombre:"Sir Maximus III"
+    },
+    {
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRECwPUFsZf-StpDcxdc29Yfq_s0VRAylcGfg&s",
+        nombre:"Sir Maximus IV"
     },
     {
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSihggKXicMbs9gOkS1WT6BLjpbGyqK9wo7fQ&s",
@@ -112,8 +151,32 @@ let CARTAS = [
         nombre:"Jawsum"
     },
     {
-        img:"https://ih1.redbubble.net/image.3134947502.2467/raf,360x360,075,t,fafafa:ca443f4786.jpg",
-        nombre:"SOMETHING"
+        img:"https://64.media.tumblr.com/d8a66258dd8c8f3448a154616637c107/1c12bc46daa05975-25/s400x600/0616290c96a22e8f9d1149e57707b99ecbfdc374.jpg",
+        nombre:"Doughie"
+    },
+    {
+        img:"https://media.tenor.com/8J_fmCz52JEAAAAe/biscuit-omori-omori.png",
+        nombre:"Biscuit"
+    },
+    {
+        img:"https://media.tenor.com/QTeMRlihpoQAAAAe/humphrey-omori.png",
+        nombre:"Humphrey"
+    },
+    {
+        img:"https://media.tenor.com/1Xd4B3EsFgAAAAAe/omori-snaley.png",
+        nombre:"Snaley"
+    },
+    {
+        img:"https://static1.personalitydatabase.net/2/pdb-images-prod/2959c3b7/profile_images/f7f47ea346964baa845c872555acb345.png",
+        nombre:"Molly"
+    },
+    {
+        img:"https://preview.redd.it/3kbbscuvurx71.jpg?auto=webp&s=813bb3ca7a45e758d6e766167082f97438d25337",
+        nombre:"Medusa"
+    },
+    {
+        img:"https://images.steamusercontent.com/ugc/1644343320553051589/8B23AD0240F6433CB97DC6304E5F945C0DFF5E56/",
+        nombre:"Marina"
     },
     {
         img:"https://art.ngfiles.com/thumbnails/1645000/1645188_full.png?f1613420106",
@@ -139,9 +202,30 @@ let CARTAS = [
         img:"https://ih1.redbubble.net/image.3948286115.7099/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp",
         nombre:"Pessi"
     },
+    // FNAF
+    {
+        img:"https://i.pinimg.com/736x/f2/b8/a0/f2b8a0ade0546e5d302927d629098bcd.jpg",
+        nombre:"Fredbear"
+    },
+    {
+        img:"https://i.pinimg.com/736x/70/f3/d6/70f3d682c932f51764cd810c1c7369fa.jpg",
+        nombre:"Springbonnie"
+    },
     {
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh3PVhkVWdKrlRQRTvN0DtAAV53FAxLLUSGw&s",
         nombre:"Freddy Fazbear"
+    },
+    {
+        img:"https://i.redd.it/ucn-bonnie-icon-render-remake-v0-yakazi037bxa1.png?width=1500&format=png&auto=webp&s=843b4675b58fd919bb5db7679e6193e001c76164",
+        nombre:"Bonnie"
+    },
+    {
+        img:"https://i.pinimg.com/originals/77/7a/e0/777ae0c0a69a12f40c41e1887465929c.jpg",
+        nombre:"Chica"
+    },
+    {
+        img:"https://i.pinimg.com/736x/97/2a/d5/972ad5e139dff32aa58da1020fb62509.jpg",
+        nombre:"Foxy"
     },
     {
         img:"https://media.discordapp.net/attachments/1418016924683735092/1454665686453457077/AIdro_lHR4vbBQczZbGBY_QdRkkkHB7F6YqwfENnxh2cZfPeZQs176-c-k-c0x00ffffff-no-rj-mo.png?ex=6951ea7e&is=695098fe&hm=b846569b6b1cf9795d9d92d12ae2a9789810bd3b5467fe7fc76df141781cc2c1&=&format=webp&quality=lossless&width=220&height=220",
@@ -152,20 +236,56 @@ let CARTAS = [
         nombre:"Flamethrower Bare Endo"
     },
     {
-        img:"https://static.wikia.nocookie.net/fnafapedia/images/b/bc/855.png",
-        nombre:"Springtrap"
+        img:"https://i.pinimg.com/736x/33/3f/a6/333fa6170261568cef332715d2935ad3.jpg",
+        nombre:"Toy Freddy"
     },
     {
-        img:"https://i.pinimg.com/736x/97/2a/d5/972ad5e139dff32aa58da1020fb62509.jpg",
-        nombre:"Foxy"
+        img:"https://i.pinimg.com/736x/76/da/45/76da455676954d1b3119f36bd9d67ed4.jpg",
+        nombre:"Toy Bonnie"
     },
     {
-        img:"https://i.pinimg.com/736x/57/31/7f/57317f8123336a4965817b7e03b9543c.jpg",
-        nombre:"Funtime Freddy"
+        img:"https://i.redd.it/dku4031mjde41.jpg",
+        nombre:"Toy Chica"
     },
     {
         img:"https://i.redd.it/5i0p5ezikhib1.png",
         nombre:"Puppet"
+    },
+    {
+        img:"https://static.wikia.nocookie.net/heroes-villains/images/8/83/FNAF_Mangle.png",
+        nombre:"Mangle"
+    },
+    {
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-eZOmotg4LKYiiBZ2LZ2jwIzWsDouxXd2w&s",
+        nombre:"Golden Freddy"
+    },
+    {
+        img:"https://static.wikia.nocookie.net/fnafapedia/images/b/bc/855.png",
+        nombre:"Springtrap"
+    },
+    {
+        img:"https://i.pinimg.com/564x/e4/97/8a/e4978a71ebe7933d83ffb454bd1c7648.jpg",
+        nombre:"Nightmare Freddy"
+    },
+    {
+        img:"https://i.redd.it/1majufapalc51.jpg",
+        nombre:"Nightmare Chica"
+    },
+    {
+        img:"https://avatarfiles.alphacoders.com/182/182530.jpg",
+        nombre:"Nightmare Foxy"
+    },
+    {
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRisI3e9W9Vst2VO8O-hNfL_3BF2v8rIdzzIw&s",
+        nombre:"Nightmare Bonnie"
+    },
+    {
+        img:"https://preview.redd.it/why-do-people-make-the-second-button-on-nightmare-fredbear-v0-yu2zuw28xoae1.jpg?width=1080&crop=smart&auto=webp&s=071e3e6ba741c70a0b0344c66f081a7ae1510c57",
+        nombre:"Nightmare Fredbear"
+    },
+    {
+        img:"https://i.pinimg.com/736x/57/31/7f/57317f8123336a4965817b7e03b9543c.jpg",
+        nombre:"Funtime Freddy"
     },
     {
         img:"https://i.redd.it/27s06h2fohy01.jpg",
@@ -182,14 +302,6 @@ let CARTAS = [
     {
         img:"https://i.pinimg.com/736x/fb/97/76/fb9776460a72d94efba776b56dc82776.jpg",
         nombre:"Funtime Foxy"
-    },
-    {
-        img:"https://static.wikia.nocookie.net/heroes-villains/images/8/83/FNAF_Mangle.png",
-        nombre:"Mangle"
-    },
-    {
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-eZOmotg4LKYiiBZ2LZ2jwIzWsDouxXd2w&s",
-        nombre:"Golden Freddy"
     },
     {
         img:"https://i.pinimg.com/736x/2b/5c/7f/2b5c7ffd4e22982547f464f78abb3694.jpg",
@@ -219,6 +331,7 @@ let CARTAS = [
         img:"https://media.discordapp.net/attachments/1418016924683735092/1455024210937385004/m98holnuifu51.png?ex=69533864&is=6951e6e4&hm=c59d2e1780ea386396e31a2d691033c929542565ad9ef564789fcc555e36c3b4&=&format=webp&quality=lossless&width=800&height=791",
         nombre:"Scott Cawthon"
     },
+    // Life is Strange
     {
         img:"https://i.pinimg.com/736x/de/e6/a3/dee6a3e67bef3f1be2c7c3e03f78ec47.jpg",
         nombre:"Maxine Caulfield"
@@ -232,6 +345,46 @@ let CARTAS = [
         nombre:"Fraudchel Amber"
     },
     {
+        img:"https://static.wikia.nocookie.net/life-is-strange/images/d/da/Eliot_Awake_Profile.png",
+        nombre:"Elliot"
+    },
+    {
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2GOFhXuSGOxyULbcQRHXjEXoV0GBiyBFiGQ&s",
+        nombre:"Joyce Price"
+    },
+    {
+        img:"https://static.wikia.nocookie.net/life-is-strange/images/7/70/Bts_david.png",
+        nombre:"David"
+    },
+    {
+        img:"https://i.pinimg.com/736x/1d/66/e2/1d66e2250efeaae2884e9448dbd2550d.jpg",
+        nombre:"Kate"
+    },
+    {
+        img:"https://i.pinimg.com/736x/a1/21/be/a121bec861a5401a97981fe20ac230bb.jpg",
+        nombre:"Nathan Prescott"
+    },
+    {
+        img:"https://static.wikia.nocookie.net/life-is-strange/images/7/75/Mikey_North_screenshot.png",
+        nombre:"Mikey North"
+    },
+    {
+        img:"https://i.redd.it/s8te3a7u21zd1.jpeg",
+        nombre:"Frank"
+    },
+    {
+        img:"https://i.redd.it/koyf6s266eg31.png",
+        nombre:"Victoria Chase"
+    },
+    {
+        img:"https://i.pinimg.com/236x/d4/92/d2/d492d2a62a30a8be72f4ff052c80cf43.jpg",
+        nombre:"Mark Jefferson"
+    },
+    {
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmC7aB_RaOMlWQdG0drYNaLnrH6stituaU2w&s",
+        nombre:"Raymond Wells"
+    },
+    {
         img:"https://cdn.lifeisstrangefans.com/uploads/media/2020/06/Samuel-Taylor-Avatar.jpg",
         nombre:"Samuel"
     },
@@ -243,6 +396,7 @@ let CARTAS = [
         img:"https://cdn.lifeisstrangefans.com/uploads/media/2020/02/William-Price-Avatar.jpg",
         nombre:"William"
     },
+    // The Owl House
     {
         img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm_mDVG4MfJj4hYP1eR-wcUPrJxBxvqdpzGQ&s",
         nombre:"Luz"
@@ -259,18 +413,36 @@ let CARTAS = [
         img:"https://i.pinimg.com/736x/e3/c7/77/e3c777b165fc3df74e47234f145fbf69.jpg",
         nombre:"Amity"
     },
+    // Slime Rancher
+    {
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJw5FU1brRpbmT-hN1G3Jy925NckWBiilIMg&s",
+        nombre:"Slime Rosa"
+    },
     {
         img:"https://image.api.playstation.com/cdn/EP2149/CUSA11650_00/wvKCtS1ImtX6YJL3xTR67g4YI5F6DXGF.png?w=240&thumb=false",
-        nombre:"Cazador"
+        nombre:"Slime Cazador"
     },
     {
         img:"https://static.wikia.nocookie.net/slimerancher/images/3/39/Slime-MOSAIC_SLIME-Awe_03-11-2023_18-23-49.106.png",
-        nombre:"Mosaico"
+        nombre:"Slime Mosaico"
     },
     {
         img:"https://ih1.redbubble.net/image.5509716237.6651/st,small,507x507-pad,600x600,f8f8f8.jpg",
-        nombre:"Charco"
+        nombre:"Slime Charco"
     },
+    {
+        img:"https://images.steamusercontent.com/ugc/933814189865255940/1A096F57F3318CA42743BA047F51869B768952D9/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+        nombre:"Slime Derviche"
+    },
+    {
+        img:"https://store.playstation.com/store/api/chihiro/00_09_000/container/FI/en/99/EP2149-CUSA11650_00-AV00000000000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=720&h=720",
+        nombre:"Slime Boom"
+    },
+    {
+        img:"https://i.pinimg.com/474x/1c/ff/88/1cff886872854acd96ea75ba701cfb3f.jpg",
+        nombre:"Slime Mercurio"
+    },
+    // Deltarune
     {
         img:"https://i.redd.it/6rypkdo3ge681.jpg",
         nombre:"Spamton"
@@ -300,8 +472,32 @@ let CARTAS = [
         nombre:"Ralsei"
     },
     {
+        img:"https://static.wikia.nocookie.net/deltarune/images/7/7a/King_face.png",
+        nombre:"King"
+    },
+    {
+        img:"https://i.pinimg.com/564x/41/62/f9/4162f9912a6d7259076d295b38551be3.jpg",
+        nombre:"Queen"
+    },
+    {
         img:"https://i.pinimg.com/474x/08/21/1f/08211fc874de6a5cf46c3fda7bd07db3.jpg",
         nombre:"Tenna"
+    },
+    {
+        img:"https://pbs.twimg.com/media/Gs9XGrCXMAAbGaW.jpg",
+        nombre:"Titan"
+    },
+    {
+        img:"https://preview.redd.it/why-exactly-is-battat-green-v0-v76ct9cw849g1.jpeg?auto=webp&s=f9fb27635698a15c97cb910263a03611fae0763d",
+        nombre:"Battat"
+    },
+    {
+        img:"https://media.tenor.com/4Tb54AORLTwAAAAe/pluey-deltarune.png",
+        nombre:"Pluey"
+    },
+    {
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY0R78IeBYGW9seu9rCi9QwhNO8sDJQMMC7Q&s",
+        nombre:"Jongler"
     },
     {
         img:"https://i.pinimg.com/736x/8d/d7/ba/8dd7bafc329295768846da5304fd74ed.jpg",
@@ -336,8 +532,20 @@ let CARTAS = [
         nombre:"Asriel"
     },
     {
+        img:"https://static.wikia.nocookie.net/undertale/images/0/04/Flowey_battle_hurt.png",
+        nombre:"Flowey"
+    },
+    {
+        img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3d346f48-d7c8-4405-a17d-d2f883994549/da3vavt-7efac0f9-af05-4767-a722-43ae7c79852e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8zZDM0NmY0OC1kN2M4LTQ0MDUtYTE3ZC1kMmY4ODM5OTQ1NDkvZGEzdmF2dC03ZWZhYzBmOS1hZjA1LTQ3NjctYTcyMi00M2FlN2M3OTg1MmUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.wRxTH15csVSpANbTJrO_3ERlQeTqhAofyMOj_QPUy0U",
+        nombre:"Omega Flowey"
+    },
+    {
         img:"https://static.wikia.nocookie.net/undertale/images/c/c4/Undyne_face.png",
         nombre:"Undyne"
+    },
+    {
+        img:"https://media.tenor.com/Rwg1DHP4kh8AAAAe/undertale-alphys.png",
+        nombre:"Alphys"
     },
     {
         img:"https://i.pinimg.com/736x/8d/df/23/8ddf23eb80486c322ebb0bad7a11e159.jpg",
