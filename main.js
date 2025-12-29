@@ -312,7 +312,7 @@ let CARTAS = [
         nombre:"Dess"
     },
     {
-        img:"https://media.tenor.com/ETlaWvH-ieQAAAAe/dess-holiday-deltarune.png",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYaA35le0WUd_vuJUqKzrd4J1IAJISNDPeHw&s",
         nombre:"Chester"
     },
     {
