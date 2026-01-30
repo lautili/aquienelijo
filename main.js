@@ -17,6 +17,10 @@ let CARTAS = [
         nombre:"Javier Milei"
     },
     {
+        img:"images/kirk.jpg",
+        nombre:"Charlie Kirk"
+    },
+    {
         img:"images/peron.jpg",
         nombre:"Juan D. Perón"
     },
@@ -333,87 +337,87 @@ let CARTAS = [
     },
     //danganronpa
     {
-        img:"images/",
+        img:"images/makoto.jpg",
         nombre:"Makoto Naegi"
     },
     {
-        img:"images/",
+        img:"images/kirigiri.jpg",
         nombre:"Kyoko Kirigiri"
     },
     {
-        img:"images/",
+        img:"images/sayaka.jpg",
         nombre:"Sayaka Maizono"
     },
     {
-        img:"images/",
+        img:"images/leon.jpg",
         nombre:"Leon Kuwata"
     },
     {
-        img:"images/",
+        img:"images/chihiro.jpg",
         nombre:"Chihiro Fujisaki"
     },
     {
-        img:"images/",
-        nombre:"Mondo Oowada"
+        img:"images/mondo.jpg",
+        nombre:"Mondo Owada"
     },
     {
-        img:"images/",
+        img:"images/ishimaru.jpg",
         nombre:"Kiyotaka Ishimaru"
     },
     {
-        img:"images/",
+        img:"images/hifumi.jpg",
         nombre:"Hifumi Yamada"
     },
     {
-        img:"images/",
+        img:"images/celes.jpg",
         nombre:"Celestia Ludenberg"
     },
     {
-        img:"images/",
-        nombre:"Sakura Oogami"
+        img:"images/sakura.jpg",
+        nombre:"Sakura Ogami"
     },
     {
-        img:"images/",
+        img:"images/aoi.jpg",
         nombre:"Aoi Asahina"
     },
     {
-        img:"images/",
+        img:"images/mukuro.jpg",
         nombre:"Mukuro Ikusaba"
     },
     {
-        img:"images/",
+        img:"images/junko.jpg",
         nombre:"Junko Fucking Enoshima"
     },
     {
-        img:"images/",
+        img:"images/toko.jpg",
         nombre:"Toko Fukawa"
     },
     {
-        img:"images/",
-        nombre:"Genocide Jack/Jill/Shou/Syo"
+        img:"images/jack.jpg",
+        nombre:"Genocide Jack"
     },
     {
-        img:"images/",
+        img:"images/yasuhiro.jpg",
         nombre:"Yasuhiro Hagakure"
     },
     {
-        img:"images/",
+        img:"images/byakuya.jpg",
         nombre:"Byakuya Togami"
     },
     {
-        img:"images/",
+        img:"images/jin.jpg",
         nombre:"Jin Kirigiri"
     },
     {
-        img:"images/",
+        img:"images/komaru.jpg",
         nombre:"Komaru Naegi"
     },
     {
-        img:"images/",
+        img:"images/monokuma.jpg",
         nombre:"Monokuma"
     },
     {
-        img:"images/",
+        img:"images/monomi.jpg",
         nombre:"Monomi"
     },
     // Life is Strange
@@ -426,8 +430,24 @@ let CARTAS = [
         nombre:"Chloe Price"
     },
     {
+        img:"images/sean.jpg",
+        nombre:"Sean Diaz"
+    },
+    {
+        img:"images/daniel.jpg",
+        nombre:"Daniel Diaz"
+    },
+    {
         img:"images/rachel.jpg",
         nombre:"Fraudchel Amber"
+    },
+    {
+        img:"images/finn.jpg",
+        nombre:"Finn"
+    },
+    {
+        img:"images/cass.jpg",
+        nombre:"Cassidy"
     },
     {
         img:"images/elliot.webp",
@@ -436,6 +456,10 @@ let CARTAS = [
     {
         img:"images/joyce.jpg",
         nombre:"Joyce Price"
+    },
+    {
+        img:"images/karen.jpg",
+        nombre:"Karen"
     },
     {
         img:"images/david.webp",
@@ -481,14 +505,55 @@ let CARTAS = [
         img:"images/william.jpg",
         nombre:"William"
     },
+    {
+        img:"images/esteban.jpg",
+        nombre:"Esteban Diaz"
+    },
+    {
+        img:"images/pompidou.jpg",
+        nombre:"Pompidou"
+    },
+    {
+        img:"images/mushroom.jpg",
+        nombre:"Mushroom"
+    },
+    // Detroit Become Human
+    {
+        img:"images/connor.jpg",
+        nombre:"Connor"
+    },
+    {
+        img:"images/markus.jpg",
+        nombre:"Markus"
+    },
+    {
+        img:"images/kara.jpg",
+        nombre:"Kara"
+    },
     // The Owl House
     {
         img:"images/luz.png",
         nombre:"Luz"
     },
     {
+        img:"images/hunter.jpg",
+        nombre:"Hunter"
+    },
+    {
         img:"images/eda.jpg",
         nombre:"Eda"
+    },
+    {
+        img:"images/lilith.jpg",
+        nombre:"Lilith"
+    },
+    {
+        img:"images/gus.jpg",
+        nombre:"Gus"
+    },
+    {
+        img:"images/willow.jpg",
+        nombre:"Willow"
     },
     {
         img:"images/king.jpg",
