@@ -331,6 +331,91 @@ let CARTAS = [
         img:"images/scott.png",
         nombre:"Scott Cawthon"
     },
+    //danganronpa
+    {
+        img:"images/",
+        nombre:"Makoto Naegi"
+    },
+    {
+        img:"images/",
+        nombre:"Kyoko Kirigiri"
+    },
+    {
+        img:"images/",
+        nombre:"Sayaka Maizono"
+    },
+    {
+        img:"images/",
+        nombre:"Leon Kuwata"
+    },
+    {
+        img:"images/",
+        nombre:"Chihiro Fujisaki"
+    },
+    {
+        img:"images/",
+        nombre:"Mondo Oowada"
+    },
+    {
+        img:"images/",
+        nombre:"Kiyotaka Ishimaru"
+    },
+    {
+        img:"images/",
+        nombre:"Hifumi Yamada"
+    },
+    {
+        img:"images/",
+        nombre:"Celestia Ludenberg"
+    },
+    {
+        img:"images/",
+        nombre:"Sakura Oogami"
+    },
+    {
+        img:"images/",
+        nombre:"Aoi Asahina"
+    },
+    {
+        img:"images/",
+        nombre:"Mukuro Ikusaba"
+    },
+    {
+        img:"images/",
+        nombre:"Junko Fucking Enoshima"
+    },
+    {
+        img:"images/",
+        nombre:"Toko Fukawa"
+    },
+    {
+        img:"images/",
+        nombre:"Genocide Jack/Jill/Shou/Syo"
+    },
+    {
+        img:"images/",
+        nombre:"Yasuhiro Hagakure"
+    },
+    {
+        img:"images/",
+        nombre:"Byakuya Togami"
+    },
+    {
+        img:"images/",
+        nombre:"Jin Kirigiri"
+    },
+    {
+        img:"images/",
+        nombre:"Komaru Naegi"
+    },
+    {
+        img:"images/",
+        nombre:"Monokuma"
+    },
+    {
+        img:"images/",
+        nombre:"Monomi"
+    },
     // Life is Strange
     {
         img:"images/maxine.jpg",
