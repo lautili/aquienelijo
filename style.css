@@ -91,6 +91,47 @@ hr{
     margin: 0px;
     height: 40px;
 }
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 10px;
+    height: auto;
+}
+
+.tags input[type="checkbox"] {
+    display: none;
+}
+.tags label {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(109, 136, 160);
+    padding: 6px 14px;
+    border: 1px solid #222;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.tags label:hover {
+    background-color: rgb(145, 168, 188);
+}
+.tags input[type="checkbox"]:checked + label {
+    background-color: rgb(42, 42, 42);
+    color: rgb(180, 180, 180);
+    border-color: #000;
+    text-decoration: line-through;
+    opacity: 0.8;
+    box-shadow: none;
+}
+.tags label:active {
+    transform: translateY(0);
+}
+
 .card_black {
     display: flex;
     flex-direction: column;
